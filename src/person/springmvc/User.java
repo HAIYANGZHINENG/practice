@@ -5,7 +5,7 @@ import java.util.Date;
 public class User {
 	
 	public User() {
-		// TODO Auto-generated constructor stub
+		System.out.println("user");
 	}
 	
 	
@@ -14,6 +14,8 @@ public class User {
 		return id;
 	}
 	public void setId(Integer id) {
+		if(id == 0)
+			return;
 		this.id = id;
 	}
 
