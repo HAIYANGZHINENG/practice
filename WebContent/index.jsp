@@ -7,6 +7,13 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<a href="helloword">abc</a>
+	<a href="helloword?id=">abc</a>
+	
+	<form action="helloword" method="post">
+		id<input type="text" value="1" name="id"/>
+		<br>
+		<br>
+		<input type="submit" value="submit"/>
+	</form>
 </body>
 </html>

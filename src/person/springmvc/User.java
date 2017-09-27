@@ -14,8 +14,6 @@ public class User {
 		return id;
 	}
 	public void setId(Integer id) {
-		if(id == 0)
-			return;
 		this.id = id;
 	}
 
@@ -26,6 +24,10 @@ public class User {
 	}
 	public void setTime(Date time) {
 		this.time = time;
+	}
+	@Override
+	public String toString() {
+		return "User [id=" + id + ", time=" + time + "]";
 	}
 
 }
