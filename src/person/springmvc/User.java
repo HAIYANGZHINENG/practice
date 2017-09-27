@@ -14,6 +14,8 @@ public class User {
 		return id;
 	}
 	public void setId(Integer id) {
+		if(id == 0)
+			return;
 		this.id = id;
 	}
 
