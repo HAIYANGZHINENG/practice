@@ -17,9 +17,15 @@ public class HelloWorld {
 	}
 	
 	
+	public User getUser(){
+		User user = new User();
+		return user;
+	}
+	
+	
 	@RequestMapping("/helloword")
 	public String helloworld(String a){
-		Model m = new BindingAwareModelMap();
+		System.out.println(a);
 		return "success";
 	}
 }
