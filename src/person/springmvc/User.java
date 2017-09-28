@@ -2,6 +2,8 @@ package person.springmvc;
 
 import java.util.Date;
 
+import org.springframework.format.annotation.DateTimeFormat;
+
 public class User {
 	
 	public User() {
@@ -17,7 +19,7 @@ public class User {
 		this.id = id;
 	}
 
-
+	@DateTimeFormat(pattern="yyyy-MM-dd")
 	private Date time;
 	public Date getTime() {
 		return time;
@@ -30,4 +32,5 @@ public class User {
 		return "User [id=" + id + ", time=" + time + "]";
 	}
 
+	
 }

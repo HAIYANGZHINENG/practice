@@ -7,14 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<a href="helloword?id=">abc</a>
-	
-	<form action="helloword" method="post">
-		id<input type="text" value="1" name="id"/>
-		<br>
-		time<input type="text" value="1" name="time"/>
-		<br>
-		<input type="submit" value="submit"/>
-	</form>
+error:${exception }
 </body>
 </html>
